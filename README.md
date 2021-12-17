@@ -41,13 +41,13 @@ const client = new Client({
 
 client.login('YOUR_DISCORD_BOT_TOKEN')
 
-client.on("ChannelNameUpdate", (channel, oldName, newName) => {
+client.on("channelNameUpdate", (channel, oldName, newName) => {
 	console.log(`${channel.name} channel's name has been updated: \`${oldName}\` -> \`${newName}\``)
 })
 ```
 ## Events:
 ### Channel events: <a name="channel"></a>
--	`ChannelNameUpdate`: Emitted when a channels's name was update <a name="channelNameUpdate"></a>
+-	`channelNameUpdate`: Emitted when a channels's name was update <a name="channelNameUpdate"></a>
 parametters:
 
 | name    | type      | description                              |
@@ -57,12 +57,12 @@ parametters:
 | newName | `String`  | The new channel name                     |
 
 ```js
-client.on("ChannelNameUpdate", (channel, oldName, newName) => {
+client.on("channelNameUpdate", (channel, oldName, newName) => {
 	console.log(`${channel.name} channel's name has been updated: \`${oldName}\` -> \`${newName}\``)
 })
 ```
 ---
--	`ChannelParentUpdate` Emitted when a channel's parent was updated
+-	`channelParentUpdate` Emitted when a channel's parent was updated <a name="channelParentUpdate"></a>
 parametters:
 
 | name      | type              | description                                |
@@ -72,12 +72,12 @@ parametters:
 | newParent | `CategoryChannel` | The new parent                             |
 
 ```js
-client.on("ChannelNameUpdate", (channel, oldParent, newParent) => {
+client.on("channelParentUpdate", (channel, oldParent, newParent) => {
 	console.log(`${channel.name} channel's parent has been updated: \`${oldParent.name}\` -> \`${newParent.name}\``)
 })
 ```
 ---
--	`ChannelPermissionsUpdate` Emitted when a channel's permissions was updated
+-	`channelPermissionsUpdate` Emitted when a channel's permissions was updated <a name="channelPermissionsUpdate"></a>
 parametters:
 
 | name           | type                    | description                                     |
@@ -87,12 +87,12 @@ parametters:
 | newPermissions | `PermissionsOverwrites` | The new Permissions                             |
 
 ```js
-client.on("ChannelPermissionsUpdate", (channel, oldPermissions, newPermissions) => {
+client.on("channelPermissionsUpdate", (channel, oldPermissions, newPermissions) => {
 	console.log(`${channel.name} channel's permissions has been updated`)
 })
 ```
 ---
--	`ChannelPositionUpdate` Emitted when a channel's position was updated
+-	`channelPositionUpdate` Emitted when a channel's position was updated <a name="channelPositionUpdate"></a>
 parametters:
 
 | name        | type      | description                                  |
@@ -102,12 +102,12 @@ parametters:
 | oldPosition | `Number`  | The new position                             |
 
 ```js
-client.on("ChannelPositionUpdate", (channel, oldPosition, newPosition) => {
+client.on("channelPositionUpdate", (channel, oldPosition, newPosition) => {
 	console.log(`${channel.name} channel's position has been updated: \`${oldPosition}\` -> \`${newPosition}\``)
 })
 ```
 ---
--	`TextChannelNsfwStatusUpdate` Emitted when a text channel's NSFW status was updated
+-	`textChannelNsfwStatusUpdate` Emitted when a text channel's NSFW status was updated <a name="textChannelNsfwStatusUpdate"></a>
 parametters:
 
 | name    | type      | description                                          |
@@ -117,12 +117,12 @@ parametters:
 | newNSFW | `Boolean` | The new NSFW status                                  |
 
 ```js
-client.on("TextChannelNsfwStatusUpdate", (channel, oldNSFW, newNSFW) => {
+client.on("textChannelNsfwStatusUpdate", (channel, oldNSFW, newNSFW) => {
 	console.log(`${channel.name} channel's position has been updated: \`${oldNSFW}\` -> \`${newNSFW}\``)
 })
 ```
 ---
--	`TextChannelRateLimitPerUserUpdate` Emitted when a text channel's rate limit was updated
+-	`textChannelRateLimitPerUserUpdate` Emitted when a text channel's rate limit was updated <a name="textChannelRateLimitPerUserUpdate"></a>
 parametters:
 
 | name         | type      | description                                         |
@@ -132,12 +132,12 @@ parametters:
 | newRateLimit | `Number`  | The new rate limit                                  |
 
 ```js
-client.on("TextChannelRateLimitPerUserUpdate", (channel, oldRateLimit, newRateLimit) => {
+client.on("textChannelRateLimitPerUserUpdate", (channel, oldRateLimit, newRateLimit) => {
 	console.log(`${channel.name} channel's rate limit has been updated: \`${oldRateLimit}\` -> \`${newRateLimit}\``)
 })
 ```
 ---
--	`TextChannelTopicUpdate` Emitted when a text channel's topic was updated
+-	`textChannelTopicUpdate` Emitted when a text channel's topic was updated <a name="textChannelTopicUpdate"></a>
 parametters:
 
 | name     | type      | description                                    |
@@ -147,12 +147,12 @@ parametters:
 | newTopic | `String`  | The new topic                                  |
 
 ```js
-client.on("TextChannelTopicUpdate", (channel, oldTopic, newTopic) => {
+client.on("textChannelTopicUpdate", (channel, oldTopic, newTopic) => {
 	console.log(`${channel.name} channel's topic has been updated: \`${oldTopic}\` -> \`${newTopic}\``)
 })
 ```
 ---
--	`VoiceChannelUserLimitUpdate` Emitted when a voice channel's user limit was updated
+-	`voiceChannelUserLimitUpdate` Emitted when a voice channel's user limit was updated <a name="voiceChannelUserLimitUpdate"></a>
 parametters:
 
 | name         | type      | description                                          |
@@ -162,12 +162,12 @@ parametters:
 | newUserLimit | `String`  | The new user limit                                   |
 
 ```js
-client.on("VoiceChannelUserLimitUpdate", (channel, oldUserLimit, newUserLimit) => {
+client.on("voiceChannelUserLimitUpdate", (channel, oldUserLimit, newUserLimit) => {
 	console.log(`${channel.name} channel's user limit has been updated: \`${oldUserLimit}\` -> \`${newUserLimit}\``)
 })
 ```
 ---
--	`VoiceChannelBitrateUpdate` Emitted when a voice channel's bitrate was updated
+-	`voiceChannelBitrateUpdate` Emitted when a voice channel's bitrate was updated <a name="voiceChannelBitrateUpdate"></a>
 parametters:
 
 | name       | type      | description                                       |
@@ -177,12 +177,12 @@ parametters:
 | newBitrate | `Number`  | The new bitrate                                   |
 
 ```js
-client.on("VoiceChannelBitrateUpdate", (channel, oldBitrate, newBitrate) => {
+client.on("voiceChannelBitrateUpdate", (channel, oldBitrate, newBitrate) => {
 	console.log(`${channel.name} channel's bitrate has been updated: \`${oldBitrate}\` -> \`${newBitrate}\``)
 })
 ```
 ---
--	`channelUndefinedUpdate` Emitted when the ChannelUpdate event was emitted but any event was trigerred
+-	`channelUndefinedUpdate` Emitted when the ChannelUpdate event was emitted but any event was trigerred <a name="channelUndefinedUpdate"></a>
 
 parametters:
 
@@ -192,8 +192,8 @@ parametters:
 | newChannel | `Channel` | The new channel |
 
 ```js
-client.on("VoiceChannelBitrateUpdate", (oldChannel, newChannel) => {
-	console.log(`${channel.name} channel was updated but `)
+client.on("channelUndefinedUpdate", (oldChannel, newChannel) => {
+	console.log(`${channel.name} channel was updated but any event was triggered`)
 })
 ```
 
