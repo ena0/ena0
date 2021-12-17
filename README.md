@@ -8,7 +8,7 @@
 2. [Installation](#Installation)
 3. [Usage](#Usage)
 4. [Events](#Events):
-	1. [Channel](#Channel_events):
+	1. [Channel](#Channel):
 		1. [ChannelNameUpdate](#ChannelNameUpdate)
 		2. [ChannelParentUpdate](#ChannelParentUpdate)
 		3. [ChannelPermissionsUpdate](#ChannelPermissionsUpdate)
@@ -46,7 +46,7 @@ client.on("ChannelNameUpdate", (channel, oldName, newName) => {
 })
 ```
 ## Events:
-### Channel events:
+### Channel events: <a name="channel"></a>
 -	`ChannelNameUpdate`: Emitted when a channels's name was update
 parametters:
 
