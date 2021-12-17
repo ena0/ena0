@@ -47,7 +47,7 @@ client.on("ChannelNameUpdate", (channel, oldName, newName) => {
 ```
 ## Events:
 ### Channel events: <a name="channel"></a>
--	`ChannelNameUpdate`: Emitted when a channels's name was update
+-	`ChannelNameUpdate`: Emitted when a channels's name was update <a name="channelNameUpdate"></a>
 parametters:
 
 | name    | type      | description                              |
