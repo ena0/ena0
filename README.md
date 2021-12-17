@@ -8,7 +8,7 @@
 2. [Installation](#Installation)
 3. [Usage](#Usage)
 4. [Events](#Events):
-	1. [Channel](#Channel):
+	1. [Channel](#Channel_events):
 		1. [ChannelNameUpdate](#ChannelNameUpdate)
 		2. [ChannelParentUpdate](#ChannelParentUpdate)
 		3. [ChannelPermissionsUpdate](#ChannelPermissionsUpdate)
