@@ -1,15 +1,27 @@
 name: Metrics
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 * * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
-jobs:
+jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmVS&feature=share
   github-metrics:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: general.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          
+      - name: Youtube Music - Random track from playlist
+        uses: lowlighter/metrics@latest
+        with:
+          filename: music.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_music: yes
+          plugin_music_playlist: >- 
+            https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmVS&feature=share
+            
