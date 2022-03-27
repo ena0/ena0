@@ -18,7 +18,7 @@
   
   ### My music list
   
-  ![My music](./music.svg)
+  ![My music](./metrics/music.svg)
   
 </details>
   
