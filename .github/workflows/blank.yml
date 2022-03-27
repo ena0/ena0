@@ -10,7 +10,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: General
+      - name: General metrics
         uses: lowlighter/metrics@latest
         with:
           filename: general.svg
@@ -26,14 +26,13 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
           plugin_music_playlist: >- 
             https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmVS&feature=share
             
-      - name: Full-year calendar
+      - name: half-year calendar
         uses: lowlighter/metrics@latest
         with:
           filename: yearMetrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
           
       - name: Compact display
         uses: lowlighter/metrics@latest
