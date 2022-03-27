@@ -13,13 +13,13 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: General metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: ./metrics/general.svg
+          filename: metrics/general.svg
           token: ${{ secrets.METRICS_TOKEN }}
           
       - name: Youtube Music - Random track from playlist
         uses: lowlighter/metrics@latest
         with:
-          filename: music.svg
+          filename: metrics/music.svg
           token: NOT_NEEDED
           base: ""
           plugin_music: yes
@@ -29,7 +29,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: half-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: ./metrics/yearMetrics.svg
+          filename: metrics/yearMetrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
@@ -37,7 +37,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: Compact display
         uses: lowlighter/metrics@latest
         with:
-          filename: achivementMetrics.svg
+          filename: metrics/achivementMetrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
