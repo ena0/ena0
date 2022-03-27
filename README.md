@@ -1,20 +1,25 @@
 # In progress
 
-<p align = "center">
+<p align="center">
   
-  <img src="https://readme-typing-svg.herokuapp.com?color=5865F2&center=true&vCenter=true&multiline=true&height=100&lines=Hi%2C+Im+ena0;Welcome+to+my+profile+account">
+  <img src="https://readme-typing-svg.herokuapp.com?duration=2500&color=5865f2&center=true&vCenter=true&multiline=true&height=100&lines=Hi%2C+i'm+ena0;Welcome+to+my+README.md">
 
 <p>
-
-## My metrics
   
+## My metrics
+
 ![general](./metrics/general.svg) 
   
-## My achivements:
-  
-![achivements](./metrics/achivementMetrics.svg)
 
-<details><summary>more About me</summary>
+## My achivements:
+
+[<img align="left" width="390" alt="🦑" src="./metrics/achivementMetrics1.svg">](#)
+[<img align="right" width="390" alt="🦑" src="./metrics/achivementMetrics2.svg">](#)
+
+  
+  
+  
+<details><summary>More About me</summary>
   
   ### My music list
   
@@ -22,7 +27,7 @@
   
 </details>
   
-<p align = "center">
+<p align="center">
   
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=Goodbye">
 
