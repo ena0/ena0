@@ -10,14 +10,13 @@
 
 ![general](./metrics/general.svg) 
   
-
+<details open><summary>More About my account</summary>
+  
 ## My achivements:
 
-[<img align="left" width="390" alt="🦑" src="./metrics/achivementMetrics1.svg">](#)
-[<img align="right" width="390" alt="🦑" src="./metrics/achivementMetrics2.svg">](#)
+![](./metrics/achivementMetrics1.svg)
 
-  
-  
+</details>
   
 <details><summary>More About me</summary>
   
