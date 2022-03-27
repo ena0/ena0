@@ -13,7 +13,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: General metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: general.svg
+          filename: ./metrics/general.svg
           token: ${{ secrets.METRICS_TOKEN }}
           
       - name: Youtube Music - Random track from playlist
@@ -29,7 +29,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: half-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: yearMetrics.svg
+          filename: ./metrics/yearMetrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
@@ -44,40 +44,6 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
           
-      - name: Favorites anime and currently watching
-        uses: lowlighter/metrics@latest
-        with:
-          user: ena0
-          filename: anime.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_anilist: yes
-          plugin_anilist_medias: anime
-          plugin_anilist_sections: favorites, watching
-          plugin_anilist_limit: 1
-          
-      - name: Favorites manga and currently reading
-        uses: lowlighter/metrics@latest
-        with:
-          user: ena0
-          filename: manga.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_anilist: yes
-          plugin_anilist_medias: manga
-          plugin_anilist_sections: favorites, reading
-          plugin_anilist_limit: 1
-          
-      - name: Favorites characters
-        uses: lowlighter/metrics@latest
-        with:
-          user: ena0
-          filename: characters.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_anilist: yes
-          plugin_anilist_sections: characters
-          plugin_anilist_limit_characters: 22
           
           
       
