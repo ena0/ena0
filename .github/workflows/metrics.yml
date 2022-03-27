@@ -47,6 +47,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: Favorites anime and currently watching
         uses: lowlighter/metrics@latest
         with:
+          user: ena0
           filename: anime.svg
           token: NOT_NEEDED
           base: ""
@@ -58,6 +59,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: Favorites manga and currently reading
         uses: lowlighter/metrics@latest
         with:
+          user: ena0
           filename: manga.svg
           token: NOT_NEEDED
           base: ""
@@ -69,6 +71,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: Favorites characters
         uses: lowlighter/metrics@latest
         with:
+          user: ena0
           filename: characters.svg
           token: NOT_NEEDED
           base: ""
