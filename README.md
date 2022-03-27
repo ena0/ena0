@@ -1,15 +1,28 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=5865F2&center=true&vCenter=true&multiline=true&height=100&lines=Hi%2C+Im+ena0;Welcome+to+my+profile+account)
+# In progress
 
-<details><summary>About me</summary>
+<p align = "center">
+  
+  <img src="https://readme-typing-svg.herokuapp.com?color=5865F2&center=true&vCenter=true&multiline=true&height=100&lines=Hi%2C+Im+ena0;Welcome+to+my+profile+account">
+
+<p>
+## My metrics
+  
+![general](./metrics/general.svg) 
+  
+## My achivements:
+  
+![achivements](./metrics/achivementMetrics.svg)
+
+<details><summary>more About me</summary>
   
   ### My music list
   
   ![My music](./music.svg)
   
 </details>
+  
+<p align = "center">
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=Goodbye">
 
-![general](./general.svg) 
-
-![Hits - Counting since 27 march 2022](https://hits.link/hits?url=https%3A%2F%2Fgithub.com%2Fena0)
-
-![header](https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=Goodbye)
+<p>
