@@ -15,6 +15,8 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
         with:
           filename: metrics/general.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
           
       - name: Youtube Music - Random track from playlist
         uses: lowlighter/metrics@latest
@@ -25,14 +27,6 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
           plugin_music: yes
           plugin_music_playlist: >- 
             https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmVS&feature=share
-            
-      - name: half-year calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/yearMetrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
           
       - name: Compact display
         uses: lowlighter/metrics@latest
