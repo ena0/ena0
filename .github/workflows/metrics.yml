@@ -13,10 +13,15 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: General metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics/general.svg
+          filename: metrics/general.sv
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
+          plugin_languages: yest
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_limit: 4
+          plugin_languages_analysis_timeout: 15
           
       - name: Youtube Music - Random track from playlist
         uses: lowlighter/metrics@latest
