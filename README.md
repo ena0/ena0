@@ -14,8 +14,8 @@
   
 ## My achivements:
 <div>
-  <img align="left" width="395" src="./metrics/achivementMetrics1.svg">
-  <img align="right" width="395" src="./metrics/achivementMetrics2.svg">
+  <img align="left" width="400" src="./metrics/achivementMetrics1.svg">
+  <img align="right" width="400" src="./metrics/achivementMetrics2.svg">
 </div>
 
 
