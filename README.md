@@ -13,9 +13,13 @@
 <details open><summary>More About my account</summary>
   
 ## My achivements:
+<div>
+  <img align="left" width="486" src="./metrics/achivementMetrics1.svg">
+  <img align="right" width="486" src="./metrics/achivementMetrics2.svg">
+</div>
 
-![](./metrics/achivementMetrics1.svg)
 
+  
 </details>
   
 <details><summary>More About me</summary>
@@ -33,6 +37,6 @@
   
 <p align="center">
   
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=timeGradient&text=Goodbye">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&width=500&color=timeGradient&text=Goodbye&section=footer">
 
 <p>
