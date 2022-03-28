@@ -64,10 +64,10 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
           token: NOT_NEEDED
           base: ""
           plugin_anilist: yes
-          plugin_anilist_medias: anime, manga
-          plugin_anilist_sections: favorites, watching, reading, characters
-          plugin_anilist_limit: 22
-          
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites, watching, characters
+          plugin_anilist_limit_characters: 22
+          plugin_anilist_limit: 5
           
           
       
