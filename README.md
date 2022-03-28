@@ -24,6 +24,11 @@
   
   [![My music](./metrics/music.svg)](https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmVS&feature=share)
   
+  ### My social medias:
+  
+  #### Discord
+  [![](https://lanyard.cnrad.dev/api/315136931166158849?borderRadius=20px&idleMessage=%22Hi%20%F0%9F%91%8B%22)](https://discord.com/users/315136931166158849)
+  
 </details>
   
 <p align="center">
