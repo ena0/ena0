@@ -16,9 +16,11 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
         with:
           filename: metrics/general.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
+          base: header
+          config_order: base.header, isocalendar, languages
+          #isoCalendar
           plugin_isocalendar: yes
-          
+          #languages
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: lines, bytes-size, percentage
@@ -54,6 +56,38 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
+          
+      - name: Favorites anime and currently watching
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/anime.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites, watching
+          plugin_anilist_limit: 1
+          
+      - name: Favorites manga and currently reading
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/manga.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_medias: manga
+          plugin_anilist_sections: favorites, reading
+          plugin_anilist_limit: 1
+          
+      - name: Favorites characters
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/characters.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 22
           
           
           
