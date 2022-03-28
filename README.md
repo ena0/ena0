@@ -28,6 +28,10 @@
   
   [![My music](./metrics/music.svg)](https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmVS&feature=share)
   
+  ## My anime list:
+  
+  [![My anime](./metrics/anime.svg)](https://anilist.co/user/ena0)
+  
   ### My social medias:
   
   #### Discord
