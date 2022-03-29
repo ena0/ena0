@@ -77,7 +77,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2021
-          plugin_skyline_frames: 120
+          plugin_skyline_frames: 480
           plugin_skyline_quality: 1
           
           
