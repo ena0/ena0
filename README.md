@@ -35,8 +35,9 @@
   ### My social medias:
   
   #### Discord
+  <!-- dark mode -->
   [![](https://lanyard.cnrad.dev/api/315136931166158849?borderRadius=20px&idleMessage=%22Hi%20%F0%9F%91%8B%22&theme=dark)](https://discord.com/users/315136931166158849#gh-dark-mode-only)
-  
+  <!-- light mode -->
   [![](https://lanyard.cnrad.dev/api/315136931166158849?borderRadius=20px&idleMessage=%22Hi%20%F0%9F%91%8B%22&theme=light)](https://discord.com/users/315136931166158849#gh-light-mode-only)
   
 </details>
