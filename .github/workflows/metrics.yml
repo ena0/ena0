@@ -69,6 +69,17 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
           plugin_anilist_limit_characters: 22
           plugin_anilist_limit: 5
           
+      - name: GitHub Skyline
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/skyline.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2021
+          plugin_skyline_frames: 120
+          plugin_skyline_quality: 1
+          
           
       
             
