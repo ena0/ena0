@@ -13,7 +13,7 @@
 <details open><summary>More About my account</summary>
   
 ## My achivements:
-<img src="./metrics/achivementMetrics2.svg">
+<img src="./metrics/achivementMetrics.svg">
   
 </details>
   
