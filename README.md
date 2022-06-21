@@ -2,7 +2,7 @@
 
 <p align="center">
   
-  <img src="https://readme-typing-svg.herokuapp.com?duration=2500&color=5865f2&center=true&vCenter=true&multiline=true&height=100&lines=Hi%2C+i'm+ena0;Welcome+to+my+README.md">
+  <img src="https://readme-typing-svg.herokuapp.com?color=5865F2&center=true&vCenter=true&lines=Hi%F0%9F%91%8B+i'm+ena0;Welcome+into+my+github+profile">
 
 <p>
   
@@ -13,12 +13,7 @@
 <details open><summary>More About my account</summary>
   
 ## My achivements:
-<div>
-  <img align="left" width="390" src="./metrics/achivementMetrics1.svg">
-  <img align="right" width="390" src="./metrics/achivementMetrics2.svg">
-</div>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="./metrics/achivementMetrics2.svg">
   
 </details>
   
