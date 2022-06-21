@@ -36,7 +36,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
           base: ""
           plugin_music: yes
           plugin_music_playlist: >- 
-            https://music.youtube.com/playlist?list=PLpHlVT9s_M-taDfiD6ylWS_ClNJ9a9STP&feature=share
+            https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmVS&feature=share
           
       - name: Detailed display
         uses: lowlighter/metrics@latest
