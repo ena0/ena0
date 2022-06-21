@@ -37,6 +37,8 @@
   
 </details>
   
+![](https://komarev.com/ghpvc/?username=ena0&color=5865F2&style=for-the-badge&label=Profile+views 'Profile views')  
+  
 <p align="center">
   
   <img src="https://capsule-render.vercel.app/api?type=waving&height=300&width=500&color=timeGradient&text=Goodbye&section=footer">
