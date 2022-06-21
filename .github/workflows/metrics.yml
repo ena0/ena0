@@ -41,7 +41,7 @@ jobs: #https://music.youtube.com/playlist?list=PLpHlVT9s_M-uf_bFxsxut9KbDx5voOmV
       - name: Detailed display
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics/achivementMetrics2.svg
+          filename: metrics/achivementMetrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
