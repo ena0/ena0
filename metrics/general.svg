@@ -1152,7 +1152,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 70.8kb of code in 75 edited files across 52 commits over last 12 days</small>
+                <small>estimation from 89.3kb of code in 98 edited files across 61 commits over last 12 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -1170,8 +1170,8 @@
                                 Java
                             </div>
                             <small>
-                                <div>1.83k lines</div>
-                                <div>61.3 kB</div>
+                                <div>2.38k lines</div>
+                                <div>79 kB</div>
                                 <div>100%</div>
                             </small>
                         </div>
